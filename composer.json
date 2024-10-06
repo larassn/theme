@@ -1,0 +1,39 @@
+{
+    "name": "larassn/theme",
+    "description": "",
+    "type": "library",
+    "version": "1.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ali SSN",
+            "email": "alisasani15@gmail.com"
+        }
+    ],
+    "require": {
+        "qirolab/laravel-themer": "^2.3"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Theme\\": "app/",
+            "Modules\\Theme\\Database\\Factories\\": "database/factories/",
+            "Modules\\Theme\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Theme\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Theme\\Providers\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
