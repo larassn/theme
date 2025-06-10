@@ -7,5 +7,7 @@
     "providers": [
         "Modules\\Theme\\Providers\\ThemeServiceProvider"
     ],
-    "files": []
+    "files": [
+        "app/Helpers/theme.php"
+    ]
 }
